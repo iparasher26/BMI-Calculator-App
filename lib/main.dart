@@ -3,7 +3,9 @@ import 'screens/InputPage.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'screens/resultPage.dart';
 
-void main() => runApp(bmi_calculator());
+void main() => runApp(
+  bmi_calculator(),
+);
 
 class bmi_calculator extends StatelessWidget {
   @override
